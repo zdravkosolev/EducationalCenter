@@ -15,16 +15,16 @@ export interface AboutpageProps {
 }
 
 export interface FeaturedCourse {
-  id: string;
-  title: string;
-  is_full: boolean;
-  start_time: string; // `${number}/${number}/${number}`;
-  excerpt: string;
-  content: string;
-  image: string;
-  category: string;
-  fee: string;
-  duration: string;
+  id?: string;
+  title?: string;
+  is_full?: boolean;
+  start_time?: string; // `${number}/${number}/${number}`;
+  excerpt?: string;
+  content?: string;
+  image?: string;
+  category?: string;
+  fee?: string;
+  duration?: string;
 }
 
 export interface Testimonial {
